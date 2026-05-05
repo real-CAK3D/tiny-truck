@@ -1,5 +1,6 @@
 import 'dotenv/config'
 import wasm from 'vite-plugin-wasm'
+import topLevelAwait from 'vite-plugin-top-level-await'
 import basicSsl from '@vitejs/plugin-basic-ssl'
 import { nodePolyfills } from 'vite-plugin-node-polyfills'
 
